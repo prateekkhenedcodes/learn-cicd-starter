@@ -9,12 +9,10 @@ import (
 	"github.com/google/uuid"
 )
 
-
 func unused() {
-    // this function does nothing
-    // and is called nowhere
-	}
-
+	// this function does nothing
+	// and is called nowhere
+}
 
 func (cfg *apiConfig) handlerNotesGet(w http.ResponseWriter, r *http.Request, user database.User) {
 	posts, err := cfg.DB.GetNotesForUser(r.Context(), user.ID)
