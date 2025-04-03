@@ -1,7 +1,6 @@
 package main
 
 import (
-	"crypto/internal/fips140/nistec"
 	"database/sql"
 	"embed"
 	"io"
