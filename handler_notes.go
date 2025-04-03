@@ -13,7 +13,7 @@ import (
 func unused() {
     // this function does nothing
     // and is called nowhere
-}
+	}
 
 
 func (cfg *apiConfig) handlerNotesGet(w http.ResponseWriter, r *http.Request, user database.User) {
