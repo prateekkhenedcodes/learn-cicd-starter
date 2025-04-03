@@ -1,0 +1,9 @@
+"go.useLanguageServer": true,
+"go.toolsManagement.autoUpdate": true,
+"gopls": {
+    "usePlaceholders": true,
+    "staticcheck": false
+},
+"go.toolsEnvVars": {
+    "CGO_LDFLAGS_ALLOW": ".*"
+}
