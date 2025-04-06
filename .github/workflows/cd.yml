@@ -30,6 +30,9 @@ jobs:
         run: |
           echo "Connecting to database at $DATABASE_URL"
       
+      - name: Migrate using goose
+        run: ./scripts/migrateup.sh
+      
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v1
         
