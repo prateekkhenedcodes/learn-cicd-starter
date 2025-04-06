@@ -30,4 +30,4 @@ jobs:
           credentials_json: ${{ secrets.GCP_CREDENTIALS }}
       
       - name: Build and push image to Google Container Registry
-        run: gcloud builds submit --tag us-central1-docker.pkg.dev/sixth-aloe-456005-j7/notely-ar-repo .
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/sixth-aloe-456005-j7/notely-ar-repo/notely:latest .
